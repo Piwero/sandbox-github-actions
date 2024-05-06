@@ -31,7 +31,7 @@
     [
       'semantic-release-helm3',
       {
-          chartPath: 'helm-app-1/',
+          chartPath: 'charts/helm-app-1',
           onlyUpdateVersion: true
       }
     ]

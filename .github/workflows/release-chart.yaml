@@ -41,6 +41,6 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GH_TOKEN }}"
         with:
-          charts_dir: helm
+          charts_dir: helm-app-1
           config: .github/configs/cr.yaml
           skip_existing: true

@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Piwero/sandbox-github-actions/compare/v1.2.0...v1.2.1) (2024-05-06)
+
+
+### Bug Fixes
+
+* **docs:** Format docs for testing purposes ([c917329](https://github.com/Piwero/sandbox-github-actions/commit/c917329b232125556396e1614c19c2b8168a93cc))
+
 # [1.2.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.1.0...v1.2.0) (2024-05-06)
 
 

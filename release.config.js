@@ -1,20 +1,52 @@
+const yaml = require('js-yaml');
+const Handlebars = require('handlebars')
+
+Handlebars.registerHelper("yamlString", function (options) {
+    const input = options.fn(this).trim()
+    return yaml.dump(input.replace(/^\s*\*\s*/g, '').trim(), {lineWith: 999, forceQuotes: true, quotingType: '"'});
+});
+
+
 module.exports = {
-    branches: [
-        {name: 'main'},
+    "branches": [
+        "main",
     ],
-    plugins: [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        ["@semantic-release/changelog", {"changelogFile": "CHANGELOG.md"}],
-        ["@semantic-release/git",
+    "tagFormat": process.env.CHART_NAME + "-v${version}",
+    "plugins": [
+        [
+            "@semantic-release/commit-analyzer",
+            {}
+        ],
+        [
+            "@semantic-release/release-notes-generator",
             {
-                "assets": ["CHANGELOG.md"],
+                "writerOpts": {
+                    "mainTemplate": "{{#each commitGroups}}{{#each commits}} - {{#yamlString}}{{> commit root=@root}}{{/yamlString}}{{/each}}{{/each}}",
+                }
+            }
+        ],
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md"
+            }
+        ],
+        [
+            "semantic-release-helm3",
+            {
+                "chartPath": ".",
+                "populateChangelog": "true",
+                "onlyUpdateVersion": "true"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "Chart.yaml"
+                ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }],
-        // ["@semantic-release/github", {"addReleases": "bottom"}],
-        ["semantic-release-helm3", {"chartPath": "./helm-app-1", "onlyUpdateVersion": "true"}]
-    ],
-    // publish: [
-    //     "@semantic-release/github"
-    // ]
-};
+            }
+        ]
+    ]
+}

@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.0.0...v1.1.0) (2024-05-06)
+
+
+### Features
+
+* **semantic-release:** Test tag version created with feat ([64a1d1c](https://github.com/Piwero/sandbox-github-actions/commit/64a1d1c066cfa6b86f91fb3fed90fce2cc40e43c))
+
 # 1.0.0 (2024-05-06)
 
 

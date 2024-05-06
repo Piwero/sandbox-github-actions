@@ -1,5 +1,11 @@
 # sandbox-github-actions
 
+
+# Tmate debugging
+* After setting up Tmate in workflow, you can go actions and run workflow with Tmate enabled
+* Then you SSH into session from log
+* Then `cat /home/runner/work/_temp/_github_workflow/event.json`
+* If you want to continue `touch continue`
 # Semantic release
 ## Branch Naming Convention
 * `feature` is for adding, refactoring or removing a feature

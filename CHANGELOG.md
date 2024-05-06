@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.1.0...v1.2.0) (2024-05-06)
+
+
+### Features
+
+* **helm-app-1:** Create Helm app test 1 ([8622ea1](https://github.com/Piwero/sandbox-github-actions/commit/8622ea161e7f405fcb4694a0af364793485eaedf))
+
 # [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.0.0...v1.1.0) (2024-05-06)
 
 

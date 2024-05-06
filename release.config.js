@@ -13,4 +13,7 @@ module.exports = {
             }],
         ["@semantic-release/github", {"addReleases": "bottom"}]
     ],
+    publish: [
+        "@semantic-release/github"
+    ]
 };

@@ -41,3 +41,4 @@ jobs:
             "@semantic-release/release-notes-generator"
             "@semantic-release/github"
             "@semantic-release/git"
+            "nflaig/semantic-release-helm3"

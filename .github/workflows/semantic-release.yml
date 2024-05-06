@@ -1,11 +1,11 @@
 name: Release
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - '.github/**'
-      - 'README.md'
+#    branches:
+#      - main
+#    paths-ignore:
+#      - '.github/**'
+#      - 'README.md'
   workflow_dispatch:
     inputs:
       debug_enabled:

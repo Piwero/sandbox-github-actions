@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.1...v1.4.2) (2024-05-07)
+
+
+### Reverts
+
+* Revert "fix(uses-releaserc): Remove extra-plugin" ([e09b45b](https://github.com/Piwero/sandbox-github-actions/commit/e09b45b1f85626bee2d5339afcec6f81f7826ec7))
+
 ## [1.4.1](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.0...v1.4.1) (2024-05-07)
 
 

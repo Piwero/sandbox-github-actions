@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.2...v1.4.3) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Upgrade replicas to test release ([169a7d3](https://github.com/Piwero/sandbox-github-actions/commit/169a7d3d70bbecf6834cac93408c8a1db529c274))
+
 ## [1.4.2](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.1...v1.4.2) (2024-05-07)
 
 

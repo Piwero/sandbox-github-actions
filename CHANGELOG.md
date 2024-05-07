@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.6...v1.4.7) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Change default `charts_dir: charts` to `charts_dir: helm-1` ([949c3a5](https://github.com/Piwero/sandbox-github-actions/commit/949c3a5e6bfb5d73e54b10486b57d3038713807c))
+
 ## [1.4.6](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.5...v1.4.6) (2024-05-07)
 
 

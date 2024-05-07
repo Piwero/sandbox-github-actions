@@ -32,6 +32,8 @@ jobs:
         with:
           semantic_version: 19.0.5
           branch: main
+          extra_plugins: |
+            semantic-release-helm3@2.9.3
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0

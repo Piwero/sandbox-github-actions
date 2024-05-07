@@ -1,38 +1,30 @@
 {
-  "branches": ["main"],
+  "branches": [
+    "main"
+  ],
   "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/commit-analyzer",
+      "@semantic-release/changelog",
       {
-        "preset": "angular",
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
-        }
+        "changelogFile": "CHANGELOG.md"
       }
     ],
     [
-      "@semantic-release/release-notes-generator",
+      "@semantic-release/git",
       {
-        "preset": "angular",
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
-        },
-        "writerOpts": {
-          "commitsSort": ["subject", "scope"]
-        }
-      }
-    ],
-    [
-      '@semantic-release/changelog',
-      {
-        "changelogFile": 'CHANGELOG.md'
+        "assets": [
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
     [
       'semantic-release-helm3',
       {
-          chartPath: 'charts/helm-app-1',
-          onlyUpdateVersion: true
+        chartPath: 'helm-app-1',
+        onlyUpdateVersion: true
       }
     ]
   ]

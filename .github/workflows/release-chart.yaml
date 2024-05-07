@@ -41,4 +41,5 @@ jobs:
           CR_TOKEN: "${{ secrets.GH_TOKEN }}"
         with:
           config: .github/configs/cr.yaml
+          charts_dir: helm-1
           skip_existing: true

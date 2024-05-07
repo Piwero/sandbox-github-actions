@@ -23,8 +23,9 @@
     [
       'semantic-release-helm3',
       {
-        chartPath: 'helm-1',
-        onlyUpdateVersion: true
+        chartPath: './helm-1',
+        onlyUpdateVersion: true,
+        crPublish: true
       }
     ]
   ]

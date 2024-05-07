@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "helm-1.fullname" . }}
+  name: service-name
   labels:
     {{- include "helm-1.labels" . | nindent 4 }}
 spec:

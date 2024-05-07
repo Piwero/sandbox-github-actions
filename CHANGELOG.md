@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.7...v1.4.8) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Change in chart to see if it's recognized ([fcad890](https://github.com/Piwero/sandbox-github-actions/commit/fcad890ee92bcaf8137f9491626adee1cec7ef15))
+
 ## [1.4.7](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.6...v1.4.7) (2024-05-07)
 
 

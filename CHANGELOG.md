@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.5.0...v1.6.0) (2024-05-07)
+
+
+### Features
+
+* **refine-cr:** Add release notes ([5508c4c](https://github.com/Piwero/sandbox-github-actions/commit/5508c4c1b21fd49c2e9c7e0dac3ff0d0d9cda343))
+* **refine-cr:** Add tag name with V version on release ([acc60f4](https://github.com/Piwero/sandbox-github-actions/commit/acc60f4ec9d8b4152253b4da0eeb0305f7bf9c14))
+
 # [1.5.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.9...v1.5.0) (2024-05-07)
 
 

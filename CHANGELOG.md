@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.0...v1.4.1) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Creates app ([247bb98](https://github.com/Piwero/sandbox-github-actions/commit/247bb98440b2ee551e6e82bb16f9b7204cf643b2))
+* **uses-releaserc:** Remove all files ([98eab7e](https://github.com/Piwero/sandbox-github-actions/commit/98eab7eccec1b5269c89626a99e78d8559bcc877))
+* **uses-releaserc:** Update workflow without cr ([89205c2](https://github.com/Piwero/sandbox-github-actions/commit/89205c22b5e5c0a780893524227587b9a9d6f708))
+
 # [1.4.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.3.5...v1.4.0) (2024-05-07)
 
 

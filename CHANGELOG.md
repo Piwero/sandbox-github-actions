@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.3.5...v1.4.0) (2024-05-07)
+
+
+### Bug Fixes
+
+* **semantic-release-helm3:** Remove secondary chart ([f111671](https://github.com/Piwero/sandbox-github-actions/commit/f1116713803e736f0e632fcc1a6b9d5af4f36dbd))
+
+
+### Features
+
+* **uses-releaserc:** Move Helm chart to root folder ([cffc8c2](https://github.com/Piwero/sandbox-github-actions/commit/cffc8c2148581ebe0d8a3f3f31c8a54cb2d8c36d))
+* **uses-releaserc:** Replace release.config.js with releaserc ([4d7baab](https://github.com/Piwero/sandbox-github-actions/commit/4d7baab3a07df96223ad29469dffbcfb1c28272b))
+
 ## [1.2.2](https://github.com/Piwero/sandbox-github-actions/compare/v1.2.1...v1.2.2) (2024-05-06)
 
 

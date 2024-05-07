@@ -1,3 +1,11 @@
+## [1.4.4](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.3...v1.4.4) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Add config for CR ([82fe75e](https://github.com/Piwero/sandbox-github-actions/commit/82fe75e8b0a36829b9f1743710dc7ffd516e8f2f))
+* **uses-releaserc:** Add config for CR ([9d377dd](https://github.com/Piwero/sandbox-github-actions/commit/9d377dda35971ed76831450e10074e87ca1ce38b))
+
 ## [1.4.3](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.2...v1.4.3) (2024-05-07)
 
 

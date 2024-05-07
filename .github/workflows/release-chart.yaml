@@ -40,4 +40,5 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GH_TOKEN }}"
         with:
+          config: .github/configs/cr.yaml
           skip_existing: true

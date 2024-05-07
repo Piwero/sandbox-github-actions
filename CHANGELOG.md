@@ -5,6 +5,13 @@
 
 * **uses-releaserc:** Use default charts for detecting changes ([2bde8e3](https://github.com/Piwero/sandbox-github-actions/commit/2bde8e3170607c51e6f3b6c7b08485d5b2120ce6))
 
+## [1.4.9](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.8...v1.4.9) (2024-05-07)
+
+
+### Bug Fixes
+
+* **uses-releaserc:** Use default charts for detecting changes ([2bde8e3](https://github.com/Piwero/sandbox-github-actions/commit/2bde8e3170607c51e6f3b6c7b08485d5b2120ce6))
+
 ## [1.4.8](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.7...v1.4.8) (2024-05-07)
 
 

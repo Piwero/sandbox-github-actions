@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.5...v1.4.6) (2024-05-07)
+
+
+### Reverts
+
+* Revert "fix(uses-releaserc): Remove git config from releaserc" ([89268ce](https://github.com/Piwero/sandbox-github-actions/commit/89268cea7da6e6ad9b8ec7438db90cc96a0b2773))
+
 ## [1.4.4](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.3...v1.4.4) (2024-05-07)
 
 

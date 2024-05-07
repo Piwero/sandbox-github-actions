@@ -15,7 +15,6 @@ jobs:
           fetch-depth: 0
 
       - name: Install Helm
-        if: true
         uses: azure/setup-helm@v3
         with:
           token: ${{ github.token }}
@@ -41,6 +40,4 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GH_TOKEN }}"
         with:
-          charts_dir: charts
-          config: .github/configs/cr.yaml
           skip_existing: true

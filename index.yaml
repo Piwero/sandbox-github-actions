@@ -3,6 +3,16 @@ entries:
   helm-1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-05-07T07:48:51.443103151Z"
+    description: A Helm chart for Kubernetes
+    digest: a6d49bf1ac15f128944c2d7a7fb317dd4cce4b295c21ad9cfc9e4f5820079d4d
+    name: helm-1
+    type: application
+    urls:
+    - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-1.5.0/helm-1-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-05-07T07:44:18.15363667Z"
     description: A Helm chart for Kubernetes
     digest: a26eb84aa4c0d87ccb64b7bcdc2b3f53990be4c61b41e2f0b228cc286ef37f16
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-07T07:44:18.153648602Z"
+generated: "2024-05-07T07:48:51.44311889Z"

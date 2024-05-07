@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.9...v1.5.0) (2024-05-07)
+
+
+### Features
+
+* Create version with release tag version working ([394b1e2](https://github.com/Piwero/sandbox-github-actions/commit/394b1e2056d8c58d27313c45ed718d0ffc0d013b))
+
 ## [1.4.9](https://github.com/Piwero/sandbox-github-actions/compare/v1.4.8...v1.4.9) (2024-05-07)
 
 

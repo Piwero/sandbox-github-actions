@@ -1,3 +1,15 @@
+## [1.6.2](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.1...v1.6.2) (2024-05-08)
+
+
+### Bug Fixes
+
+* **refine-cr:** Remove unneeded config from release notes generator ([08b3030](https://github.com/Piwero/sandbox-github-actions/commit/08b30309fb11da7d8b13bd090936c8878c92ad2a))
+
+
+### Reverts
+
+* Revert "fix(refine-cr): Populate artifacthub.io/changes annotations with notes produced by @semantic-release/release-notes-generator" ([e2c9a2b](https://github.com/Piwero/sandbox-github-actions/commit/e2c9a2b07c2d79b617f9f5fe8a198e72255dfa22))
+
 ## [1.6.1](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.0...v1.6.1) (2024-05-08)
 
 

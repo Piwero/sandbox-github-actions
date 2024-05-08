@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.0...v1.6.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* **refine-cr:** Populate artifacthub.io/changes annotations with notes produced by @semantic-release/release-notes-generator ([9c1b2bb](https://github.com/Piwero/sandbox-github-actions/commit/9c1b2bbde1c9b1176bc1e6850973168496517c74))
+
 # [1.6.0](https://github.com/Piwero/sandbox-github-actions/compare/v1.5.0...v1.6.0) (2024-05-07)
 
 

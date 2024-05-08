@@ -21,9 +21,6 @@
       }
     ],
     [
-      "@semantic-release/github",
-    ]
-    [
       'semantic-release-helm3',
       {
         chartPath: 'charts/helm-1',

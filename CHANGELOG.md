@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.4...v1.6.5) (2024-05-08)
+
+
+### Bug Fixes
+
+* **refine-cr:** Test default github token ([fc5b2b9](https://github.com/Piwero/sandbox-github-actions/commit/fc5b2b9bac28f95787c1ce78144a427a96805969))
+
 ## [1.6.4](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.3...v1.6.4) (2024-05-08)
 
 

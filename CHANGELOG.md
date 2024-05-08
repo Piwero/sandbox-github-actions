@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.3...v1.6.4) (2024-05-08)
+
+
+### Reverts
+
+* Revert "fix(refine-cr): Remove git plugin" ([05c6fa2](https://github.com/Piwero/sandbox-github-actions/commit/05c6fa2987a156d32e6c994abde90a2ca27859e2))
+
 ## [1.6.2](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.1...v1.6.2) (2024-05-08)
 
 

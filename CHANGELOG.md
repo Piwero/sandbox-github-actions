@@ -1,3 +1,10 @@
+## [1.6.7](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.6...v1.6.7) (2024-05-09)
+
+
+### Bug Fixes
+
+* **refine-cr:** Remove comments from Chart.yaml ([b14fd4c](https://github.com/Piwero/sandbox-github-actions/commit/b14fd4c5fbb3518c767742139f8a5b368e0fbab0))
+
 ## [1.6.6](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.5...v1.6.6) (2024-05-09)
 
 

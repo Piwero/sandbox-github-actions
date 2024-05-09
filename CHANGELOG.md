@@ -1,3 +1,10 @@
+## [1.6.6](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.5...v1.6.6) (2024-05-09)
+
+
+### Bug Fixes
+
+* **refine-cr:** Small change to test release notes generator ([f2dfa63](https://github.com/Piwero/sandbox-github-actions/commit/f2dfa63ad294ba160abf020ea13941eaf0d7f079))
+
 ## [1.6.5](https://github.com/Piwero/sandbox-github-actions/compare/v1.6.4...v1.6.5) (2024-05-08)
 
 

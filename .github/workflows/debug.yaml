@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Test environment variable
         run: |
-          echo env: $${{ env.CM_REGISTRY }}
+          echo env: "${{ env.TEST_VARIABLE }}"
           echo secret: ${{ secrets.TEST }}
 
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate

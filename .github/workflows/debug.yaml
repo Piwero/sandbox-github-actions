@@ -19,6 +19,8 @@ jobs:
   debug:
     name: Debugging activated
     runs-on: ubuntu-latest
+    env:
+      CM_REGISTRY: ${{ env.CM_REGISTRY }}
     steps:
       - name: Test environment variable
         run: |

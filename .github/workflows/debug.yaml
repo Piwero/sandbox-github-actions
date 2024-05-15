@@ -1,10 +1,6 @@
 name: Debug
 on:
   workflow_dispatch:
-    branches:
-      - '*'         # matches every branch that doesn't contain a '/'
-      - '*/*'       # matches every branch containing a single '/'
-      - '**'# matches every branch
     inputs:
       debug_enabled:
         type: boolean
@@ -22,7 +18,8 @@ jobs:
     steps:
       - name: Test environment variable
         run: |
-          echo $${{ env.CM_REGISTRY }}
+          echo env: $${{ env.CM_REGISTRY }}
+          echo secret: ${{ secrets.TEST }}
 
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate
       - name: Setup tmate session

@@ -17,7 +17,7 @@ on:
         default: 'main'
 jobs:
   debug:
-    name: Tag and release latest version
+    name: Debugging activated
     runs-on: ubuntu-latest
     steps:
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate

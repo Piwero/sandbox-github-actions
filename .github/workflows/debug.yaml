@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Test environment variable
         run: |
-          echo ${{ CM_REGISTRY }}
+          echo $CM_REGISTRY
 
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate
       - name: Setup tmate session

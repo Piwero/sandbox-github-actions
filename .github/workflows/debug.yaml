@@ -17,10 +17,10 @@ on:
         default: 'main'
 jobs:
   debug:
-    name: Debugging activated
+    name: Debugging job
     runs-on: ubuntu-latest
     env:
-      CM_REGISTRY: ${{ env.CM_REGISTRY }}
+      CM_REGISTRY: ${{ secrets.CM_REGISTRY }}
     steps:
       - name: Test environment variable
         run: |

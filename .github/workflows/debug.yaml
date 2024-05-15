@@ -19,12 +19,10 @@ jobs:
   debug:
     name: Debugging job
     runs-on: ubuntu-latest
-    env:
-      CM_REGISTRY: ${{ secrets.CM_REGISTRY }}
     steps:
       - name: Test environment variable
         run: |
-          echo $CM_REGISTRY
+          echo ${{ secrets.CM_REGISTRY }}
 
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate
       - name: Setup tmate session

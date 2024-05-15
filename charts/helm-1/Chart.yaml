@@ -1,6 +1,6 @@
 apiVersion: v2
 name: helm-1
-description: A Helm chart for Kubernetes
+description: Testing helm chart no1
 type: application
 version: 0.1.0
 appVersion: "1.16.0"

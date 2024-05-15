@@ -1,13 +1,24 @@
 name: Debug
-
 on:
   workflow_dispatch:
+    branches:
+      - '*'         # matches every branch that doesn't contain a '/'
+      - '*/*'       # matches every branch containing a single '/'
+      - '**'# matches every branch
     inputs:
       debug_enabled:
         type: boolean
         description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
         required: false
         default: false
+      branch:
+        description: 'Define branch name'
+        required: true
+        default: 'main'
+jobs:
+  debug:
+    name: Tag and release latest version
+    runs-on: ubuntu-latest
     steps:
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate
       - name: Setup tmate session

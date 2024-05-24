@@ -14,7 +14,6 @@ nameOverride: ""
 fullnameOverride: ""
 
 serviceAccount:
-  # Specifies whether a service account should be created
   create: true
   # Automatically mount a ServiceAccount's API credentials?
   automount: true

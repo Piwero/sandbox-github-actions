@@ -29,9 +29,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REGISTRY_HOST: ${{ vars.CM_REGISTRY }}
-          REGISTRY_USERNAME: ${{ vars.REGISTRY_USERNAME }}
-          REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
         with:
           semantic_version: 19.0.5
           branch: main

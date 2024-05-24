@@ -17,7 +17,7 @@ module.exports = {
             {
                 chartPath: 'charts/helm-1',
                 onlyUpdateVersion: true,
-                registry: process.env.CM_REGISTRY,
+                registry: process.env.REPOSITORY_WITH_CREDS,
                 isChartMuseum: true
             }
         ]

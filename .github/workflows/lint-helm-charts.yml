@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - *
+      - '*'
 jobs:
   lint-helm-charts:
     runs-on: ubuntu-latest

@@ -1,2 +1,4 @@
-release-name-template: "v{{ .Version }}"
-release-notes-file: CHANGELOG.md
+#release-notes-file: ../CHANGELOG.md
+generate-release-notes: true
+skip_existing: true
+make-release-latest: false

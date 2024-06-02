@@ -12,12 +12,11 @@ module.exports = {
                 "changelogFile": "CHANGELOG.md"
             }
         ],
-        [
-            'semantic-release-helm3',
-            {
-                chartPath: 'charts',
-                onlyUpdateVersion: true,
-            }
-        ]
-    ]
+        "@semantic-release/git",
+        {
+            "assets": [
+                "Charts/helm-1/Chart.yaml",
+                "Charts/app-2/Chart.yaml",
+            ]
+        }]
 }

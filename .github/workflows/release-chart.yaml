@@ -28,17 +28,6 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Semantic Release
-        id: semantic-release
-        uses: cycjimmy/semantic-release-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          semantic_version: 19.0.5
-          branch: main
-          extra_plugins: |
-            semantic-release-helm3@2.9.3
-
       - name: Add repositories
         run: |
           for dir in $(ls -d charts/*/); do

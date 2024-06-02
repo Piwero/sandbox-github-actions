@@ -1,10 +1,6 @@
 name: Debug
 on:
   workflow_dispatch:
-    branches:
-      - '*'         # matches every branch that doesn't contain a '/'
-      - '*/*'       # matches every branch containing a single '/'
-      - '**'# matches every branch
     inputs:
       debug_enabled:
         type: boolean
@@ -17,9 +13,18 @@ on:
         default: 'main'
 jobs:
   debug:
-    name: Debugging activated
+    name: Debugging job
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REGISTRY_HOST: ${{ vars.CM_REGISTRY }}
+      REGISTRY_USERNAME: ${{ vars.REGISTRY_USERNAME }}
     runs-on: ubuntu-latest
     steps:
+      - name: Test environment variable
+        run: |
+          echo REGISTRY_HOST: $REGISTRY_HOST
+          echo secret: ${{ secrets.TEST }}
+
       # https://github.com/mxschmitt/action-tmate?tab=readme-ov-file#manually-triggered-debug Info to activate
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3

@@ -1,4 +1,3 @@
-
 module.exports = {
     "branches": [
         "main"
@@ -9,16 +8,14 @@ module.exports = {
         [
             "@semantic-release/changelog",
             {
-                "changelogFile": "charts/helm-1/CHANGELOG.md"
+                "changelogFile": "CHANGELOG.md"
             }
         ],
         [
             'semantic-release-helm3',
             {
-                chartPath: 'charts/helm-1',
+                chartPath: 'charts',
                 onlyUpdateVersion: true,
-                registry: process.env.REPOSITORY_WITH_CREDS,
-                isChartMuseum: true
             }
         ]
     ]

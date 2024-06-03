@@ -134,6 +134,18 @@ entries:
     version: 1.0.3
   helm-1:
   - annotations:
+      artifacthub.io/changes: ' - '
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-03T16:55:49.729739181Z"
+    description: Testing helm chart no1
+    digest: 292b7e7073c1692f4fba5261a2e95fe12a102e307613cd8dc3471c394d00efbc
+    name: helm-1
+    type: application
+    urls:
+    - helm-1-2.2.1.tgz
+    version: 2.2.1
+  - annotations:
       artifacthub.io/changes: ' -  - '
     apiVersion: v2
     appVersion: 1.16.0
@@ -439,4 +451,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-03T16:51:32.034148714Z"
+generated: "2024-06-03T16:55:49.729952922Z"

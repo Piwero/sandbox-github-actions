@@ -164,6 +164,32 @@ entries:
     version: 1.0.3
   helm-1:
   - annotations:
+      artifacthub.io/changes: |+
+        ## [2.2.2](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v2.2.1...helm-1-v2.2.2) (2024-06-03)
+
+
+        ### Bug Fixes
+
+        * **helm-1:** Update NOTES.txt ([048ed16](https://github.com/Piwero/sandbox-github-actions/commit/048ed16987b7c9e58d547b06ca4df4eb963404a4))
+
+
+        ### Reverts
+
+        * Revert "ci: Update release notes generator" ([14bf65f](https://github.com/Piwero/sandbox-github-actions/commit/14bf65f4c773605af620e98d8907d51442276677))
+
+
+
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-03T17:17:30.824480304Z"
+    description: Testing helm chart no1
+    digest: fed9f56072fe2d68bb8701ae73c61d36555381f1e2281647e64fb86764a082b1
+    name: helm-1
+    type: application
+    urls:
+    - helm-1-2.2.2.tgz
+    version: 2.2.2
+  - annotations:
       artifacthub.io/changes: ' - '
     apiVersion: v2
     appVersion: 1.16.0
@@ -481,4 +507,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-03T17:02:37.966001191Z"
+generated: "2024-06-03T17:17:30.824637541Z"

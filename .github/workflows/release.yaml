@@ -70,3 +70,6 @@ jobs:
 
             popd;
           done
+          
+          echo "CR Index"
+          [ "$(ls -A .cr-release-packages)" ] && cr index -o "piwero" -r "helmseum" --push --packages-with-index --index-path .

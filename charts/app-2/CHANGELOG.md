@@ -1,3 +1,22 @@
+# [2.0.0](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.1.0...app-2-v2.0.0) (2024-06-03)
+
+
+### Bug Fixes
+
+* **helm-1:** Test release with small change ([f8b050c](https://github.com/Piwero/sandbox-github-actions/commit/f8b050c24c30d1f93100fadbc3c69b9f9612d3b7))
+
+
+### Features
+
+* **app-2:** Test app-2 release ([bd580b5](https://github.com/Piwero/sandbox-github-actions/commit/bd580b52a1cb35eb8d9ca39da4018386f0c11515))
+* **app-2:** Test app-2 release ([988abf0](https://github.com/Piwero/sandbox-github-actions/commit/988abf0849f24f092ec62d0aa8a4f42c897e54f0))
+* **helm-1:** Test major release ([ec7a8ac](https://github.com/Piwero/sandbox-github-actions/commit/ec7a8ac6381ad487ed9b2c4144834aed11d9f72b))
+
+
+### BREAKING CHANGES
+
+* **helm-1:** Small change with major release
+
 # [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.0.3...app-2-v1.1.0) (2024-06-03)
 
 

@@ -43,6 +43,7 @@ jobs:
         run: |
           npm install ci
           mkdir .cr-release-packages
+          echo "Any Changed files: ${{ steps.changed-files.outputs.any_changed }}"
           echo ${ALL_CHANGED_FILES}
           for dir in ${ALL_CHANGED_FILES}; do
             pushd "$dir";

@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.0.1...app-2-v1.0.2) (2024-06-03)
+
+
+### Bug Fixes
+
+* **app-2:** Change to trigger release after new config ([d071e83](https://github.com/Piwero/sandbox-github-actions/commit/d071e83eff3d8a41ba0a71fb4cdfe3f209dc2f6d))
+
 ## [1.0.1](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.0.0...app-2-v1.0.1) (2024-06-03)
 
 

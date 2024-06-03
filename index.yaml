@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   app-2:
   - annotations:
+      artifacthub.io/changes: |2
+         - "**app-2:** Update NOTES.txt
+        ([af28778](https://github.com/Piwero/sandbox-github-actions/commit/af28778e24664e7c5be16538cb630796c6c09346))"
+         - "**helm-1:** Update CHANGELOG.md ([d32f06e](https://github.com/Piwero/sandbox-github-actions/commit/d32f06ea8ab475133ec9992e855289ecb3e4cd1c))"
+         - "**helm-1:** Update NOTES.txt ([71d256b](https://github.com/Piwero/sandbox-github-actions/commit/71d256b4a5553497317570b80fb849fd47336b83))"
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-03T16:59:00.973012432Z"
+    description: A Helm chart for Kubernetes
+    digest: e1609b00bcd38a387a5055baa5b682abb859264d5f0c6e87f70339b597aa18dc
+    name: app-2
+    type: application
+    urls:
+    - app-2-2.2.1.tgz
+    version: 2.2.1
+  - annotations:
       artifacthub.io/changes: ' -  - '
     apiVersion: v2
     appVersion: 1.16.0
@@ -451,4 +467,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-03T16:55:49.729952922Z"
+generated: "2024-06-03T16:59:00.973099323Z"

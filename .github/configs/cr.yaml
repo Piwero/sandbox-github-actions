@@ -1,4 +1,2 @@
-#release-notes-file: ../CHANGELOG.md
-generate-release-notes: true
-skip_existing: true
+release-notes-file: ../CHANGELOG.md
 make-release-latest: false

@@ -34,10 +34,24 @@ jobs:
             helm dependency list $dir 2> /dev/null | tail +2 | head -n -1 | awk '{ print "helm repo add " $1 " " $3 }' | while read cmd; do $cmd; done
           done
 
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.6.0
-        with:
-          charts_dir: charts
-          config: .github/cr.yaml
+      - name: Bump version
+        if: steps.changed-files.outputs.any_changed == 'true'
         env:
-          CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          npm install ci
+          mkdir .cr-release-packages
+          for dir in ${ALL_CHANGED_FILES}; do
+            pushd "$dir";
+
+            cp -f ../../.github/configs/cr.yaml ./
+            cp -f ../../.releaserc.js ./
+            ln -s ../../.cr-release-packages
+
+            export CHART_NAME=$(basename $(pwd))
+            npx semantic-release;
+
+            popd;
+          done

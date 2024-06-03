@@ -41,6 +41,12 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: engineerd/configurator@v0.0.10
+        with:
+          name: "cr"
+          url: "https://github.com/helm/chart-releaser/releases/download/v1.6.0/chart-releaser_1.6.0_linux_amd64.tar.gz"
+          pathInArchive: "cr"
+
       - name: Add repositories
         run: |
           for dir in $(ls -d charts/*/); do

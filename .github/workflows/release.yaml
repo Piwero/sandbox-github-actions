@@ -61,7 +61,7 @@ jobs:
           for dir in ${ALL_CHANGED_FILES}; do
             pushd "$dir";
 
-            cp -f ../../cr.yaml ./
+            cp -f ../../.github/configs/cr.yaml ./
             cp -f ../../.releaserc.js ./
             ln -s ../../.cr-release-packages
 
@@ -71,5 +71,5 @@ jobs:
             popd;
           done
           
-          echo "CR Index: $(ls -A .cr-release-packages)"
+          echo "CR Index"
           [ "$(ls -A .cr-release-packages)" ] && cr index -o "piwero" -r "sandbox-github-actions" --push --packages-with-index --index-path .

@@ -1,3 +1,15 @@
+## [2.2.2](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v2.2.1...helm-1-v2.2.2) (2024-06-03)
+
+
+### Bug Fixes
+
+* **helm-1:** Update NOTES.txt ([048ed16](https://github.com/Piwero/sandbox-github-actions/commit/048ed16987b7c9e58d547b06ca4df4eb963404a4))
+
+
+### Reverts
+
+* Revert "ci: Update release notes generator" ([14bf65f](https://github.com/Piwero/sandbox-github-actions/commit/14bf65f4c773605af620e98d8907d51442276677))
+
 -
 
 -  -

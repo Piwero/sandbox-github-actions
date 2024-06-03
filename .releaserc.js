@@ -13,14 +13,7 @@ module.exports = {
     "tagFormat": process.env.CHART_NAME + "-v${version}",
     "plugins": [
         "@semantic-release/commit-analyzer",
-        [
-            "@semantic-release/release-notes-generator",
-            {
-                "writerOpts": {
-                    "mainTemplate": "{{#each commitGroups}}{{#each commits}} - {{#yamlString}}{{> commit root=@root}}{{/yamlString}}{{/each}}{{/each}}",
-                }
-            }
-        ],
+        "@semantic-release/release-notes-generator",
         [
             "@semantic-release/changelog",
             {

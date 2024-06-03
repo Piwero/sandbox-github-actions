@@ -162,6 +162,27 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-1.4.9/helm-1-1.4.9.tgz
     version: 1.4.9
+  - annotations:
+      artifacthub.io/changes: |+
+        ## [1.0.5](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.0.4...helm-1-v1.0.5) (2024-06-03)
+
+
+        ### Reverts
+
+        * Revert "fix(helm-1): Change to trigger release after new config" ([36e7a37](https://github.com/Piwero/sandbox-github-actions/commit/36e7a37409bce5463f369a975d6e3a4dd12119bf))
+
+
+
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-03T07:25:47.432811798Z"
+    description: Testing helm chart no1
+    digest: 7c35c55d852bc04c385e1f7394184762250dddbfd18cc0daac79ad84f4e7ba1a
+    name: helm-1
+    type: application
+    urls:
+    - helm-1-1.0.5.tgz
+    version: 1.0.5
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-05-07T07:38:27.686662839Z"
@@ -172,4 +193,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-24T11:53:30.563070629Z"
+generated: "2024-06-03T07:25:47.432922565Z"

@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.0.2...app-2-v1.0.3) (2024-06-03)
+
+
+### Reverts
+
+* Revert "fix(app-2): Change to trigger release after new config" ([af8a37a](https://github.com/Piwero/sandbox-github-actions/commit/af8a37abaa28497958d11d0e6a3e92b246d39bd3))
+
 ## [1.0.2](https://github.com/Piwero/sandbox-github-actions/compare/app-2-v1.0.1...app-2-v1.0.2) (2024-06-03)
 
 

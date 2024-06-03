@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.2.0...helm-1-v2.0.0) (2024-06-03)
+
+
+### Features
+
+* **helm-1:** Test major release ([ec7a8ac](https://github.com/Piwero/sandbox-github-actions/commit/ec7a8ac6381ad487ed9b2c4144834aed11d9f72b))
+
+
+### BREAKING CHANGES
+
+* **helm-1:** Small change with major release
+
 # [1.2.0](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.1.0...helm-1-v1.2.0) (2024-06-03)
 
 

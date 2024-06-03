@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.0.0...app-3-v1.0.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* **app-3:** Update NOTES.txt ([6bfa589](https://github.com/Piwero/sandbox-github-actions/commit/6bfa589bcb0f3304d5a3fbc6c09b5c041e0bdc5a))
+
 # 1.0.0 (2024-06-03)
 
 

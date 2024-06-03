@@ -35,7 +35,7 @@ jobs:
           done
 
       - name: Bump version
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"

@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.0.0...helm-1-v1.0.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* **app-2:** Change to trigger release after new config ([d071e83](https://github.com/Piwero/sandbox-github-actions/commit/d071e83eff3d8a41ba0a71fb4cdfe3f209dc2f6d))
+* **app-2:** Change to trigger release after new config ([85f7144](https://github.com/Piwero/sandbox-github-actions/commit/85f71442219bce38f2ec68e2d37da7626dc4a315))
+* **app-2:** Change to trigger release after new config ([82fbb24](https://github.com/Piwero/sandbox-github-actions/commit/82fbb243a86c8ba176f3870c6465bc356c947799))
+* **helm-1:** Change to trigger release after new config ([2a4d560](https://github.com/Piwero/sandbox-github-actions/commit/2a4d560b6ca6663eee8aabc05f27214454877884))
+
 # 1.0.0 (2024-06-03)
 
 

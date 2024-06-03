@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.0.1...helm-1-v1.0.2) (2024-06-03)
+
+
+### Reverts
+
+* Revert "fix(helm-1): Change to trigger release after new config" ([6449acb](https://github.com/Piwero/sandbox-github-actions/commit/6449acb376f5509886bb85040c2368ad8d0b01b1))
+
 ## [1.0.1](https://github.com/Piwero/sandbox-github-actions/compare/helm-1-v1.0.0...helm-1-v1.0.1) (2024-06-03)
 
 

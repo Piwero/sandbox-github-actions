@@ -23,7 +23,7 @@
     "@semantic-release/release-notes-generator": "^12.0.0",
     "semantic-release": "^23.0.0",
     "semantic-release-helm3": "^2.9.2",
-    "semantic-release-monorepo": "8.0.2"
+    "semantic-release-monorepo": "^8.0.2"
   },
   "dependencies": {
     "@semantic-release/exec": "^6.0.3"

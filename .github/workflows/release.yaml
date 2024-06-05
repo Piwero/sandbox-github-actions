@@ -2,8 +2,8 @@ name: Release Charts
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - "charts/**"
 jobs:
   release:
     # if: ${{ github.event.workflow_run.conclusion == 'success' }}

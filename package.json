@@ -6,7 +6,11 @@
     "type": "git",
     "url": "git@github.com:Piwero/sandbox-github-actions.git"
   },
-  "keywords": ["Helm", "repo", "test"],
+  "keywords": [
+    "Helm",
+    "repo",
+    "test"
+  ],
   "author": "Piwero <piwero@ggmail.com.com>",
   "bugs": {
     "url": "https://github.com/Piwero/sandbox-github-actions/issues"
@@ -19,7 +23,7 @@
     "@semantic-release/release-notes-generator": "^12.0.0",
     "semantic-release": "^23.0.0",
     "semantic-release-helm3": "^2.9.2",
-    "semantic-release-monorepo-hooks": "2.10.0"
+    "semantic-release-monorepo": "8.0.2"
   },
   "dependencies": {
     "@semantic-release/exec": "^6.0.3"

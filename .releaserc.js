@@ -3,7 +3,6 @@ module.exports = {
         "main"
     ],
     "tagFormat": process.env.CHART_NAME + "-v${version}",
-    "extends": "semantic-release-monorepo",
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",

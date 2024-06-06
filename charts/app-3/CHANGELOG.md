@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.1.0...app-3-v1.1.1) (2024-06-06)
+
+
+### Bug Fixes
+
+* **app-3:** Trigger app-3 release ([314b42f](https://github.com/Piwero/sandbox-github-actions/commit/314b42f9d5032e3aa4d0a8bbbdebe92add36fe1c))
+* **helm-1:** Update NOTES.txt ([ea1a86b](https://github.com/Piwero/sandbox-github-actions/commit/ea1a86bafb218d9ea984cd5a93e074e654cdc8a0))
+
 # [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.0.1...app-3-v1.1.0) (2024-06-06)
 
 

@@ -195,6 +195,28 @@ entries:
   app-3:
   - annotations:
       artifacthub.io/changes: |+
+        ## [1.1.1](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.1.0...app-3-v1.1.1) (2024-06-06)
+
+
+        ### Bug Fixes
+
+        * **app-3:** Trigger app-3 release ([314b42f](https://github.com/Piwero/sandbox-github-actions/commit/314b42f9d5032e3aa4d0a8bbbdebe92add36fe1c))
+        * **helm-1:** Update NOTES.txt ([ea1a86b](https://github.com/Piwero/sandbox-github-actions/commit/ea1a86bafb218d9ea984cd5a93e074e654cdc8a0))
+
+
+
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-06T08:23:22.295057046Z"
+    description: A Helm chart for Kubernetes
+    digest: b77c22952e74355056ec851490afba55f59201028c6b12eb4f09ef2fc0074500
+    name: app-3
+    type: application
+    urls:
+    - app-3-1.1.1.tgz
+    version: 1.1.1
+  - annotations:
+      artifacthub.io/changes: |+
         # [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.0.1...app-3-v1.1.0) (2024-06-06)
 
 
@@ -730,4 +752,4 @@ entries:
     urls:
     - https://github.com/Piwero/sandbox-github-actions/releases/download/helm-1-0.1.0/helm-1-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-06T08:21:58.142095555Z"
+generated: "2024-06-06T08:23:22.295169698Z"

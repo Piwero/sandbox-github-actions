@@ -76,7 +76,7 @@ jobs:
             ln -s ../../.cr-release-packages
 
             export CHART_NAME=$(basename $(pwd))
-            npx semantic-release -e semantic-release-monorepo;
+            npx semantic-release;
 
             popd;
           done

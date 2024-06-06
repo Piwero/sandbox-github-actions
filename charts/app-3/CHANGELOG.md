@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.0.1...app-3-v1.1.0) (2024-06-06)
+
+
+### Bug Fixes
+
+* **app-2:** Update NOTES.txt ([5110c6a](https://github.com/Piwero/sandbox-github-actions/commit/5110c6a81b6778389f06c999fcdf2ce9f30e2aa8))
+* **app-2:** Update NOTES.txt to trigger release with monorepo plugin ([61a9b8f](https://github.com/Piwero/sandbox-github-actions/commit/61a9b8f854f2b784afceacb163a1011d1a92cd67))
+* **app-3:** Trigger app-3 release ([0968005](https://github.com/Piwero/sandbox-github-actions/commit/09680057a09402db2ff7a9c3ebf6cf0b4a06f648))
+* **app-3:** Trigger app-3 release ([de85cc0](https://github.com/Piwero/sandbox-github-actions/commit/de85cc0da9d5a985a57cc64c407f51256193c4d5))
+
+
+### Features
+
+* **app-2:** Test app-2 release ([04b0411](https://github.com/Piwero/sandbox-github-actions/commit/04b04117de1b903065fde3a22c3958563fe059c3))
+
 ## [1.0.1](https://github.com/Piwero/sandbox-github-actions/compare/app-3-v1.0.0...app-3-v1.0.1) (2024-06-03)
 
 

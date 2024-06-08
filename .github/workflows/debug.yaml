@@ -20,6 +20,21 @@ jobs:
       REGISTRY_USERNAME: ${{ vars.REGISTRY_USERNAME }}
     runs-on: ubuntu-latest
     steps:
+      - name: Load secrets from 1pass
+        uses: 1password/load-secrets-action@v2
+        with:
+          # Export loaded secrets as environment variables
+          export-env: true
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
+          REPOSITORY_OWNER: "op://Homelab/Github Actions -Helmseum/username"
+          GITHUB_REPOSITORY: "op://Homelab/Github Actions -Helmseum/repo"
+
+      - name: Print masked secret
+        run: |
+          echo "REPOSITORY_OWNER: $REPOSITORY_OWNER"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+
       - name: Test environment variable
         run: |
           echo REGISTRY_HOST: $REGISTRY_HOST

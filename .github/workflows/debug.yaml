@@ -31,7 +31,10 @@ jobs:
           GITHUB_REPOSITORY: "op://Homelab/Github Actions -Helmseum/repo"
 
       - name: Print masked secret
+        env:
+          USER: "MYSECRET"
         run: |
+          echo "$USER"
           echo "REPOSITORY_OWNER: $REPOSITORY_OWNER"
           echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
 
